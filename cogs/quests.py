@@ -13,7 +13,7 @@ CATCHING_TRACKS = {
         "counts": [20, 50, 100, 200, 500],
         "condition": {"region": region},
         "description": name(region),
-        "rewards": [2000, 5000, 10000, 20000, 50000],
+        "rewards": [20000, 5000, 10000, 20000, 50000],
         "final_reward": region,
     }
     for region in ("kanto", "johto", "hoenn", "sinnoh", "unova", "kalos", "alola", "galar")
